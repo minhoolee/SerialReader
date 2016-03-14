@@ -5,7 +5,7 @@ ifneq (,)
 This makefile requires GNU Make.
 endif
  
-PROGRAM = canonicalarduinoread
+PROGRAM = serialRead
 C_FILES := $(wildcard *.c)
 OBJS := $(patsubst %.c, %.o, $(C_FILES))
 CC = cc
